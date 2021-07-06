@@ -32,33 +32,6 @@ console.log(records);
 
 
 
-// function breakingRecords(scores) {
-
-// const holder = scores[0];
-// let minResult = holder;
-// let maxResult = holder;
-// let maxRecord = 0;
-// let minRecord = 0;
-
-// scores.forEach(score => {
-//         if (score < minResult) {
-//         minResult = score;
-//         minRecord++;
-//     } else if (score > maxResult) {
-//         maxResult = score;
-//         maxRecord++;
-//     }
-// });
-
-//     return [maxRecord, minRecord];
-// };
-
-// const records = breakingRecords(scores);
-// console.log(records);
-
-
-
-
 //https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
 
 
