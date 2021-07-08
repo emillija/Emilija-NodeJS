@@ -3,6 +3,7 @@
 let scores = [3, 4, 21, 36, 10, 28, 35, 5, 24, 42];
         // // 3  4  21  36  36  36  36 36  36  42 
 
+
 function breakingRecords(scores) {
     let minResult = scores[0];
     let maxResult = scores[0];
@@ -24,37 +25,9 @@ function breakingRecords(scores) {
     return [maxRecord, minRecord];
 }; 
 
-
 const records = breakingRecords(scores);
 console.log(records);
 
-
-
-
-
-// function breakingRecords(scores) {
-
-// const holder = scores[0];
-// let minResult = holder;
-// let maxResult = holder;
-// let maxRecord = 0;
-// let minRecord = 0;
-
-// scores.forEach(score => {
-//         if (score < minResult) {
-//         minResult = score;
-//         minRecord++;
-//     } else if (score > maxResult) {
-//         maxResult = score;
-//         maxRecord++;
-//     }
-// });
-
-//     return [maxRecord, minRecord];
-// };
-
-// const records = breakingRecords(scores);
-// console.log(records);
 
 
 
